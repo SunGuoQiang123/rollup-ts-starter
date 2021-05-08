@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "target": "ES5",
+    "lib": ["DOM", "ES2015"],
+    "alwaysStrict": false,
+    "sourceMap": true,
+    "module": "ES6",
+    "strict": true,
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

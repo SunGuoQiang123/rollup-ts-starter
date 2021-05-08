@@ -1,0 +1,9 @@
+**/*.md
+**/*.svg
+package.json
+stage
+dist
+docs
+mocks
+.husky
+coverage
