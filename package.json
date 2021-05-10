@@ -11,6 +11,7 @@
     "publish": "npm run build && npm publish",
     "test": "jest -c jest.config.js"
   },
+  "types": "./src/typings/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git@github.com:SunGuoQiang123/rollup-ts-starter.git"
